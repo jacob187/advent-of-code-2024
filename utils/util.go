@@ -37,3 +37,14 @@ func ConvertToInteger(s string) int {
 
 	return myInt
 }
+
+func GetSignInteger(n int) int8 {
+	switch {
+	case n > 0:
+		return 1
+	case n < 0:
+		return -1
+	default:
+		return 0
+	}
+}
