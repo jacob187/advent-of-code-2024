@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestPartOne(t *testing.T) {
+func TestDayTwo(t *testing.T) {
 	t.Run("testing part one example file", func(t *testing.T) {
 		got := partOne("example.txt")
 		want := 2
